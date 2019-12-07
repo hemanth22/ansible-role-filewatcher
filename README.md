@@ -13,7 +13,7 @@ None.
 Role Variables
 --------------
 
-None.
+**file_watcher_path :** This variable will help to change path address and name of the file to be monitored.
 
 Dependencies
 ------------
