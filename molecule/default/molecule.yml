@@ -28,13 +28,13 @@ scenario:
     - destroy
     # - dependency
     - syntax
-     - create
-     - prepare
-     - converge
-     - idempotence
-     - side_effect
-     - verify
-     - destroy
+    - create
+    - prepare
+    - converge
+    - idempotence
+    - side_effect
+    - verify
+    - destroy
 verifier:
   name: testinfra
   lint:
