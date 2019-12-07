@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  role_name: aws_docker_instance
+  role_name: filewatcher
   author: hemanth22
   description: This roles acts like a file watcher job.
   license: GPLv3
