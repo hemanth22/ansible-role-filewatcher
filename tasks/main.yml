@@ -1,11 +1,11 @@
 ---
 # tasks file for filewatcher
-  - name: Filewatch job.
-    wait_for:
-      timeout: 10
-      path: hemanth.dat
-      msg: Timeout
-    retries: 100
-    register: file_res
-    changed_when: false
-    until: file_res is success
+- name: Filewatch job.
+  wait_for:
+    timeout: 10
+    path: hemanth.dat
+    msg: Timeout
+  retries: 100
+  register: file_res
+  changed_when: false
+  until: file_res is success
