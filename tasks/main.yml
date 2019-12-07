@@ -2,7 +2,7 @@
 # tasks file for filewatcher
 - name: Filewatch job.
   wait_for:
-    timeout: 10
+    timeout: 60
     path: "{{ file_watcher_path }}"
     msg: Timeout
   retries: "{{ max_retrys }}"
