@@ -1,3 +1,4 @@
 ---
 # defaults file for filewatcher
 file_watcher_path: "{{ role_path }}/files/hemanth.dat"
+max_retrys: 10
