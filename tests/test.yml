@@ -1,5 +1,8 @@
 ---
 - hosts: localhost
-  remote_user: root
+  become: true
+  vars:
+    file_watcher_path: ./hemanth.dat
+    max_run_time: 10
   roles:
     - hemanth22.filewatcher
