@@ -3,7 +3,7 @@
 - name: Filewatch job.
   wait_for:
     timeout: 10
-    path: {{ role_path }}/files/hemanth.dat
+    path: /home/travis/build/hemanth22/hemanth22.filewatcher/files/hemanth.dat
     msg: Timeout
   retries: 10
   register: file_res
