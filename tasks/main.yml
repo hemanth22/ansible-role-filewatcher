@@ -3,7 +3,7 @@
 - name: Filewatch job.
   wait_for:
     timeout: 10
-    path: files/hemanth.dat
+    path: "{{ role_path }}/files/hemanth.dat"
     msg: Timeout
   retries: 10
   register: file_res
