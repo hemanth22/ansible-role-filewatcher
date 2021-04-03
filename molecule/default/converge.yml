@@ -4,7 +4,7 @@
   become: true
   gather_facts: false
   vars:
-    file_watcher_path:./files/hemanth.dat
+    file_watcher_path: /files/hemanth.dat
   roles:
     - role: hemanth22.filewatcher
       tags: molecule-idempotence-notest
